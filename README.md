@@ -47,7 +47,7 @@ Putting these metrics on a graph will give you a rough estimate of a Concurrency
 
 ### 9. Size
 
-Last section of the canvas will help you estimate the hypothetical size of the aggregate. In this case the size itself is being measured in the number of events per aggregate instance. In some domains events are smaller, and in others much larger, so please remember about it during evaluation.
+The last section of the canvas will help you estimate the hypothetical size of the aggregate. In this case the size itself is being measured in the number of events per aggregate instance. In some domains events are smaller, and in others much larger, so please remember about it during evaluation.
 
 The Event growth rate metric should estimate how many events are appended to a single aggregate instance. The Lifetime of an instance will tell us how long the instance is going to live and as a consequence how many events will be accumulates and fetched when we need to process a new command.
 
