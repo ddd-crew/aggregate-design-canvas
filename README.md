@@ -26,7 +26,7 @@ Usually the aggregate goes through explicit state transitions, that impact the w
 
 One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on responsibilities that the aggregate has. Large numbers of enforced invariants can indicate high local complexity of the aggregate implementation.
 
-Corrective policies are the ones that aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit. If you need a bit more information on the topic, please review the modelling business rules post from this blog.
+Corrective policies are the ones that aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit.
 
 ### 6. Handled Commands & 7. Created Events
 
