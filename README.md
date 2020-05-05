@@ -2,7 +2,7 @@
 
 The Aggregate Design Canvas is a modelling tool meant to be used as a part of design-level domain modelling activities. 
 
-An aggregate is a lifecycle pattern originally described by Eric Evans. By aggregate, we understand a graph of object that is a consistency boundary for our domain policies. Depending on the design of the aggregate we can either enforce them (make them invariant) or be forced to have corrective policies in place. Because of that it is important to design the boundaries of aggregates well, as they impact behaviours modelled within our domain.
+An aggregate is a lifecycle pattern originally described by Eric Evans. By aggregate, we understand a graph of objects that is a consistency boundary for our domain policies. Depending on the design of the aggregate we can either enforce them (make them invariant) or be forced to have corrective policies in place. Because of that it is important to design the boundaries of aggregates well, as they impact behaviours modelled within our domain.
 
 The canvas has a suggested order of working through it, that helps to iteratively discuss different aspects of the aggregate design.
 
@@ -24,7 +24,7 @@ Usually the aggregate goes through explicit state transitions, that impact the w
 
 ### 4. Enforced Invariants & 5. Corrective Policies
 
-One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing main ones in this section will make sure that you agree on responsibilities that the aggregate has. Large numbers of enforced invariants can indicate high local complexity of the aggregate implementation.
+One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on responsibilities that the aggregate has. Large numbers of enforced invariants can indicate high local complexity of the aggregate implementation.
 
 Corrective policies are the ones that aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit. If you need a bit more information on the topic, please review the modelling business rules post from this blog.
 
