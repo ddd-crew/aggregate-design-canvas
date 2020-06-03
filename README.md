@@ -24,13 +24,13 @@ Summarise the main responsibilities and purpose of the aggregate. It’s a good 
 
 ### 3. State Transitions
 
-Usually the aggregate goes through explicit state transitions, that impact the way the way it can be interacted with. Too many transitions might indicate that process boundaries weren't modelled properly and can be split. Very naive / simple transitions might indicate that the aggregate is anaemic and that logic was pushed out to services. In this section list the possible states or draw a small transition diagram in this section of the canvas. 
+Usually the aggregate goes through explicit state transitions, that impact the way it can be interacted with. Too many transitions might indicate that process boundaries weren't modelled properly and can be split. Very naive / simple transitions might indicate that the aggregate is anaemic and that logic was pushed out to services. In this section of the canvas list the possible states or draw a small transition diagram. 
 
 ### 4. Enforced Invariants & 5. Corrective Policies
 
-One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on responsibilities that the aggregate has. Large numbers of enforced invariants can indicate high local complexity of the aggregate implementation.
+One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on responsibilities that the aggregate has. A large number of enforced invariants can indicate high local complexity of the aggregate implementation.
 
-Corrective policies are the ones that aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit.
+Corrective policies are the ones, that the aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit.
 
 ### 6. Handled Commands & 7. Created Events
 
@@ -47,18 +47,18 @@ To give you an example - if an aggregate models a basket on the website then it�
 #### Aggregate concurrency conflict chance evaluation chart
 ![Aggregate concurrency conflict chance evaluation chart](resources/aggregate-concurency-conflict-chance-evaluation-chart.png "Aggregate concurrency conflict chance evaluation chart")
 
-Putting these metrics on a graph will give you a rough estimate of a Concurrency conflict chance, which is what we are ultimately looking for. Plotting both Avg and Max for multiple alternatives will allow you to explicitly talk about the throughput tradeoffs. Generally speaking aiming for a small chance of conflict will deliver better customer experience, but will also increase the complexity of implementation. Or if we put it in a different way - bigger aggregates will have higher chance of concurrency conflict, but less policies to correct data.
+Putting these metrics on a graph will give you a rough estimate of a Concurrency conflict chance, which is what we are ultimately looking for. Plotting both Avg and Max for multiple alternatives will allow you to explicitly talk about the throughput tradeoffs. Generally speaking, aiming for a small chance of conflict will deliver better customer experience, but will also increase the complexity of implementation. Or if we put it in a different way: bigger aggregates will have higher chance of concurrency conflict, but less policies to correct data.
 
 ### 9. Size
 
 The last section of the canvas will help you estimate the hypothetical size of the aggregate. In this case the size itself is being measured in the number of events per aggregate instance. In some domains events are smaller, and in others much larger, so please remember about it during evaluation.
 
-The Event growth rate metric should estimate how many events are appended to a single aggregate instance. The Lifetime of an instance will tell us how long the instance is going to live and as a consequence how many events will be accumulates and fetched when we need to process a new command.
+The Event growth rate metric should estimate how many events are appended to a single aggregate instance. The Lifetime of an instance will tell us how long the instance is going to live and as a consequence how many events will be accumulated and fetched when we need to process a new command.
 
 #### Aggregate size evaluation chart
 ![Aggregate size evaluation chart](resources/aggregate-size-evaluation-chart.png "Aggregate size evaluation chart")
 
-Medium and large number of events might impact the customer experience and make the command handling slow. Fortunately in most cases this can be dealt with using snapshots. Another thing to look for are long-lived instances (potentially infinite). This might cause problems when it comes to data archivization and ever growing streams. For that reason it’s usually a good heuristic to scope the aggregate to a specific time period (e.g. billing period).
+Medium and large number of events might impact the customer experience and make the command handling slow. Fortunately, in most cases this can be dealt with using snapshots. Another thing to look for are long-lived instances (potentially infinite). This might cause problems when it comes to archiving data and ever growing streams. For that reason it’s usually a good heuristic to scope the aggregate to a specific time period (e.g. billing period).
 
 ## Additional Resources
 
@@ -68,11 +68,7 @@ Medium and large number of events might impact the customer experience and make 
 
 ## Contributors
 
-Thank you to the following individuals who have all contributed to the Aggregate Design Canvas:
-
-- [Kacper Gunia](https://github.com/cakper)
-- [Mathew McLoughlin](https://github.com/mat-mcloughlin)
-- [Nick Tune](https://github.com/ntcoding)
+Thanks to all [existing and future contributors](https://github.com/ddd-crew/aggregate-design-canvas/graphs/contributors) and to [Mathew McLoughlin](https://github.com/mat-mcloughlin) who has contributed to the Aggregate Design Canvas:
 
 The canvas was inspired by the [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
 
