@@ -28,9 +28,11 @@ Usually the aggregate goes through explicit state transitions, that impact the w
 
 ### 4. Enforced Invariants & 5. Corrective Policies
 
-One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on responsibilities that the aggregate has. A large number of enforced invariants can indicate high local complexity of the aggregate implementation.
+One of the main jobs of the aggregate is to enforce business invariants. These invariants protect business logic and listing the main ones in this section will make sure that you agree on the responsibilities that the aggregate has. A large number of enforced invariants can indicate high local complexity of the aggregate implementation.
 
-Corrective policies are the ones, that the aggregate is involved with because you’ve made an explicit tradeoff to give up some invariants. A lot of corrective policies could indicate an increased complexity. Listing on the canvas both Invariants and Corrective Policies will make these design tradeoffs explicit.
+If you decide to change the boundaries of the aggregate and relax some of the invariants (for example to reduce the chance of concurrency conflict), then some extra business logic might be required to correct some of the inconsistencies. In the context of this canvas, we call this logic corrective policies. A large number of such policies might indicate that the business logic was pushed outside of the aggregate, which can increase the complexity of implementation.
+
+Listing on the canvas both Invariants and Corrective Policies will make design trade-offs explicit and will help you decide whether the boundaries you decided on are useful or not.
 
 ### 6. Handled Commands & 7. Created Events
 
