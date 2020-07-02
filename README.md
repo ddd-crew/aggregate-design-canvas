@@ -70,6 +70,12 @@ Medium and large number of events might impact the customer experience and make 
 - [Modelling aggregates with "Aggregate Design Canvas"](https://domaincentric.net/blog/modelling-aggregates-with-aggregate-design-canvas)
 - [Modelling Aggregates: Invariants vs Corrective Policies](https://domaincentric.net/blog/modelling-business-rules-invariants-vs-corrective-policies)
 
+## Examples
+
+### Naive bank account
+
+![Aggregate Design Canvas](examples/naive-bank-account.jpg "Aggregate Design Canvas - Naive bank account")
+
 ## Contributors
 
 Thanks to all [existing and future contributors](https://github.com/ddd-crew/aggregate-design-canvas/graphs/contributors) and to [Mathew McLoughlin](https://github.com/mat-mcloughlin) who has contributed to the Aggregate Design Canvas:
