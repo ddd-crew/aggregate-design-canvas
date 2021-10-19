@@ -13,6 +13,7 @@ The canvas has a suggested order of working through it, that helps to iterativel
 - [Aggregate Design Canvas (jpg)](resources/aggregate-design-canvas-v1.jpg "Aggregate Design Canvas (jpg)")
 - [Aggregate Design Canvas (pdf)](resources/aggregate-design-canvas-v1.pdf "Aggregate Design Canvas (pdf)")
 - [Aggregate Design Canvas (miro board backup)](resources/aggregate-design-canvas-v1.rtb "Aggregate Design Canvas (miro board backup)")
+- [Aggregate Design Canvas (drawio svg)](resources/aggregate-design-canvas-v1.drawio.svg "Aggregate Design Canvas (drawio svg)")
 
 ## How to Use
 
