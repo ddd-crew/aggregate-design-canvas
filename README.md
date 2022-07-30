@@ -6,14 +6,20 @@ An aggregate is a lifecycle pattern originally described by Eric Evans. By aggre
 
 The canvas has a suggested order of working through it, that helps to iteratively discuss different aspects of the aggregate design.
 
-![Aggregate Design Canvas](resources/aggregate-design-canvas-v1.jpg "Aggregate Design Canvas")
+![Aggregate Design Canvas](resources/aggregate-design-canvas-v1.1.png "Aggregate Design Canvas")
 
 ### Downloads
 
-- [Aggregate Design Canvas (jpg)](resources/aggregate-design-canvas-v1.jpg "Aggregate Design Canvas (jpg)")
-- [Aggregate Design Canvas (pdf)](resources/aggregate-design-canvas-v1.pdf "Aggregate Design Canvas (pdf)")
-- [Aggregate Design Canvas (miro board backup)](resources/aggregate-design-canvas-v1.rtb "Aggregate Design Canvas (miro board backup)")
-- [Aggregate Design Canvas (drawio svg)](resources/aggregate-design-canvas-v1.drawio.svg "Aggregate Design Canvas (drawio svg)")
+v1.1:
+- [Aggregate Design Canvas v1.1 (png)](resources/aggregate-design-canvas-v1.1.png "Aggregate Design Canvas v1.1 (png)")
+- [Aggregate Design Canvas v1.1 (pdf)](resources/aggregate-design-canvas-v1.1.pdf "Aggregate Design Canvas v1.1 (pdf)")
+- [Aggregate Design Canvas v1.1 (miro board backup)](resources/aggregate-design-canvas-v1.1.rtb "Aggregate Design Canvas v1.1 (miro board backup)")
+
+v1.0:
+- [Aggregate Design Canvas v1 (jpg)](resources/aggregate-design-canvas-v1.jpg "Aggregate Design Canvas v1 (jpg)")
+- [Aggregate Design Canvas v1 (pdf)](resources/aggregate-design-canvas-v1.pdf "Aggregate Design Canvas v1 (pdf)")
+- [Aggregate Design Canvas v1 (miro board backup)](resources/aggregate-design-canvas-v1.rtb "Aggregate Design Canvas v1 (miro board backup)")
+- [Aggregate Design Canvas v1 (drawio svg)](resources/aggregate-design-canvas-v1.drawio.svg "Aggregate Design Canvas v1 (drawio svg)")
 
 ## How to Use
 
@@ -79,7 +85,8 @@ Medium and large number of events might impact the customer experience and make 
 
 ## Contributors
 
-Thanks to all [existing and future contributors](https://github.com/ddd-crew/aggregate-design-canvas/graphs/contributors) and to [Mathew McLoughlin](https://github.com/mat-mcloughlin) who has contributed to the Aggregate Design Canvas:
+Thanks to all [existing and future contributors](https://github.com/ddd-crew/aggregate-design-canvas/graphs/contributors), to [Mathew McLoughlin](https://github.com/mat-mcloughlin) and [ Avatar
+Marijn Huizendveld](https://github.com/marijn) who have contributed to the Aggregate Design Canvas:
 
 The canvas was inspired by the [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
 
