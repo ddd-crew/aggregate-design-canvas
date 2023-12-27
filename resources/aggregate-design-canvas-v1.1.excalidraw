@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://excalidraw.com",
+  "source": "https://excalidraw-jetbrains-plugin",
   "elements": [
     {
       "id": "w1wNAOtGfIoK80iZSPzLg",
@@ -658,8 +658,8 @@
       "type": "text",
       "x": -1837.9710144927535,
       "y": 2139.903381642512,
-      "width": 1330.9178743961352,
-      "height": 84.21741277599055,
+      "width": 1349.1250000000034,
+      "height": 86.00000000000021,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -672,27 +672,27 @@
       "frameId": null,
       "roundness": null,
       "seed": 1918668214,
-      "version": 296,
-      "versionNonce": 151743158,
+      "version": 311,
+      "versionNonce": 587328596,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1703350540717,
       "link": null,
       "locked": true,
-      "text": "Aggregate Design Canvas V1.1 by Gabriel Anhaia & Domain-Driven Design Crew.\nFor more information visit https://github.com/ddd-crew/aggregate-design-canvas",
-      "fontSize": 36.61626642434376,
+      "text": "Aggregate Design Canvas V1.1 by Kacper Gunia & Domain-Driven Design Crew.\nFor more information visit https://github.com/ddd-crew/aggregate-design-canvas",
+      "fontSize": 37.625000000000085,
       "fontFamily": 2,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 75.9999999999999,
+      "baseline": 77.00000000000021,
       "containerId": null,
       "originalText": "Aggregate Design Canvas V1.1 by Gabriel Anhaia & Domain-Driven Design Crew.\nFor more information visit https://github.com/ddd-crew/aggregate-design-canvas",
       "lineHeight": 1.15
     },
     {
       "type": "text",
-      "version": 494,
-      "versionNonce": 620274678,
+      "version": 512,
+      "versionNonce": 2091960532,
       "isDeleted": false,
       "id": "8Xgh0BM-T5TohQWvbO_MH",
       "fillStyle": "solid",
@@ -701,12 +701,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": -120,
-      "y": 2140,
+      "x": -157.60024940184394,
+      "y": 2146,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 1583.2978621773098,
-      "height": 84.21741277599065,
+      "width": 1620.8981115791537,
+      "height": 86.21741277599105,
       "seed": 1808715370,
       "groupIds": [],
       "frameId": null,
@@ -715,7 +715,7 @@
       "updated": 1703350540717,
       "link": null,
       "locked": true,
-      "fontSize": 36.61626642434376,
+      "fontSize": 37.485831641735246,
       "fontFamily": 2,
       "text": "This work is licensed under a Creative Commons Attribution 4.0 International License, CC BY 4.0.\nTo view a copy of the license, visit http://creativecommons.org/licenses/by/4.0",
       "textAlign": "right",
@@ -723,7 +723,7 @@
       "containerId": null,
       "originalText": "This work is licensed under a Creative Commons Attribution 4.0 International License, CC BY 4.0.\nTo view a copy of the license, visit http://creativecommons.org/licenses/by/4.0",
       "lineHeight": 1.15,
-      "baseline": 76
+      "baseline": 77.21741277599105
     },
     {
       "id": "_rMrpjgoTECGyYwVBxZ-8",
@@ -1435,8 +1435,7 @@
     }
   ],
   "appState": {
-    "gridSize": 20,
+    "gridSize": null,
     "viewBackgroundColor": "#ffffff"
-  },
-  "files": {}
+  }
 }
