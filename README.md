@@ -14,6 +14,7 @@ v1.1:
 - [Aggregate Design Canvas v1.1 (png)](resources/aggregate-design-canvas-v1.1.png "Aggregate Design Canvas v1.1 (png)")
 - [Aggregate Design Canvas v1.1 (pdf)](resources/aggregate-design-canvas-v1.1.pdf "Aggregate Design Canvas v1.1 (pdf)")
 - [Aggregate Design Canvas v1.1 (miro board backup)](resources/aggregate-design-canvas-v1.1.rtb "Aggregate Design Canvas v1.1 (miro board backup)")
+- [Aggregate Design Canvas v1.1 (drawio svg)](resources/aggregate-design-canvas-v1.1.drawio.svg "Aggregate Design Canvas v1.1 (drawio svg)")
 - [Aggregate Design Canvas v1.1 (Excalidraw)](resources/aggregate-design-canvas-v1.1.excalidraw "Aggregate Design Canvas v1.1 (Excalidraw)")
 
 v1.0:
