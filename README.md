@@ -8,6 +8,10 @@ The canvas has a suggested order of working through it, that helps to iterativel
 
 ![Aggregate Design Canvas](resources/aggregate-design-canvas-v1.1.png "Aggregate Design Canvas")
 
+## Translations
+
+- [Brazilian Portuguese (pt-BR)](translations/pt-br/README.md)
+
 ### Downloads
 
 v1.1:
