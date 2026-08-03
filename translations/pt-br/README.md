@@ -112,7 +112,7 @@ Outro aspecto importante são as instâncias de longa duração, potencialmente 
 
 Agradecemos a todos os [colaboradores atuais e futuros](https://github.com/ddd-crew/aggregate-design-canvas/graphs/contributors), assim como a [Mathew McLoughlin](https://github.com/mat-mcloughlin) e [Marijn Huizendveld](https://github.com/marijn), que contribuíram para o Aggregate Design Canvas.
 
-O canvas foi inspirado pelo [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas).
+O canvas foi inspirado pelo [Bounded Context Canvas em português brasileiro](https://github.com/ddd-crew/bounded-context-canvas/blob/main/translations/pt-br/README.md).
 
 ## Contribuições e feedback
 
